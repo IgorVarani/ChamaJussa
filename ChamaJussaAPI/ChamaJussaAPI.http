@@ -1,0 +1,6 @@
+@ChamaJussaAPI_HostAddress = http://localhost:5015
+
+GET {{ChamaJussaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
