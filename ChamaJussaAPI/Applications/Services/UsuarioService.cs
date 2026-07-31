@@ -23,9 +23,9 @@ namespace ChamaJussaAPI.Applications.Services
         {
             return new LerUsuarioDto
             {
-                Id = Usuario.Usuario_id,
-                Nome = Usuario.nome,
-                NIF = Usuario.nif,
+                Id = Usuario.UsuarioID,
+                Nome = Usuario.Nome,
+                NIF = Usuario.NIF,
                 Email = Usuario.Email
             };
         }
@@ -76,9 +76,9 @@ namespace ChamaJussaAPI.Applications.Services
 
             Usuario Usuario = new Usuario
             {
-                Usuario_id = Guid.NewGuid(),
-                nome = UsuarioDto.Nome,
-                nif = UsuarioDto.NIF,
+                UsuarioID = Guid.NewGuid(),
+                Nome = UsuarioDto.Nome,
+                NIF = UsuarioDto.NIF,
                 Email = UsuarioDto.Email,
                 Senha = HashSenha(UsuarioDto.Senha)
             };

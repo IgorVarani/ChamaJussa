@@ -3762,11 +3762,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\43698404818\\Desktop\\ChamaJussaAPI\\ChamaJussaAPI\\ChamaJussaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\ChamaJussaAPI.csproj",
       "projectName": "ChamaJussaAPI",
-      "projectPath": "C:\\Users\\43698404818\\Desktop\\ChamaJussaAPI\\ChamaJussaAPI\\ChamaJussaAPI.csproj",
+      "projectPath": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\ChamaJussaAPI.csproj",
       "packagesPath": "C:\\Users\\43698404818\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\43698404818\\Desktop\\ChamaJussaAPI\\ChamaJussaAPI\\obj\\",
+      "outputPath": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\43698404818\\Desktop\\ChamaJussaAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|c:\\users\\43698404818\\desktop\\chamajussaapi\\chamajussaapi\\applications\\services\\ordemservicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|c:\\users\\43698404818\\desktop\\chamajussa\\chamajussaapi\\applications\\services\\ordemservicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|solutionrelative:chamajussaapi\\applications\\services\\ordemservicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|c:\\users\\43698404818\\desktop\\chamajussa\\chamajussaapi\\controllers\\ordemservicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|solutionrelative:chamajussaapi\\controllers\\ordemservicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|c:\\users\\43698404818\\desktop\\chamajussa\\chamajussaapi\\applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|solutionrelative:chamajussaapi\\applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|c:\\users\\43698404818\\desktop\\chamajussa\\chamajussaapi\\applications\\services\\localstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|solutionrelative:chamajussaapi\\applications\\services\\localstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|c:\\users\\43698404818\\desktop\\chamajussa\\chamajussaapi\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|solutionrelative:chamajussaapi\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|c:\\users\\43698404818\\desktop\\chamajussa\\chamajussaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|solutionrelative:chamajussaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdemServicoController.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Controllers\\OrdemServicoController.cs",
+              "RelativeDocumentMoniker": "ChamaJussaAPI\\Controllers\\OrdemServicoController.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Controllers\\OrdemServicoController.cs",
+              "RelativeToolTip": "ChamaJussaAPI\\Controllers\\OrdemServicoController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAApwFQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T11:42:56.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Applications\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "ChamaJussaAPI\\Applications\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Applications\\Services\\UsuarioService.cs*",
+              "RelativeToolTip": "ChamaJussaAPI\\Applications\\Services\\UsuarioService.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAApwFAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T11:42:10.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Interfaces\\IStorageService.cs",
+              "RelativeDocumentMoniker": "ChamaJussaAPI\\Interfaces\\IStorageService.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Interfaces\\IStorageService.cs",
+              "RelativeToolTip": "ChamaJussaAPI\\Interfaces\\IStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T11:12:49.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocalStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Applications\\Services\\LocalStorageService.cs",
+              "RelativeDocumentMoniker": "ChamaJussaAPI\\Applications\\Services\\LocalStorageService.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Applications\\Services\\LocalStorageService.cs",
+              "RelativeToolTip": "ChamaJussaAPI\\Applications\\Services\\LocalStorageService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T11:12:36.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ChamaJussaAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Program.cs",
+              "RelativeToolTip": "ChamaJussaAPI\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T11:05:06.584Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "OrdemServicoService.cs",
-              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\ChamaJussaAPI\\ChamaJussaAPI\\Applications\\Services\\OrdemServicoService.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Applications\\Services\\OrdemServicoService.cs",
               "RelativeDocumentMoniker": "ChamaJussaAPI\\Applications\\Services\\OrdemServicoService.cs",
-              "ToolTip": "C:\\Users\\43698404818\\Desktop\\ChamaJussaAPI\\ChamaJussaAPI\\Applications\\Services\\OrdemServicoService.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Applications\\Services\\OrdemServicoService.cs",
               "RelativeToolTip": "ChamaJussaAPI\\Applications\\Services\\OrdemServicoService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAKYAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAIAwwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-30T13:43:18.829Z",
               "EditorCaption": ""

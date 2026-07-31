@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\43698404818\\Desktop\\ChamaJussaAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|c:\\users\\43698404818\\desktop\\chamajussaapi\\chamajussaapi\\applications\\services\\ordemservicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|solutionrelative:chamajussaapi\\applications\\services\\ordemservicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|c:\\users\\43698404818\\desktop\\chamajussa\\chamajussaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF68D88-CFDE-B172-FB4E-963EAA8DAB43}|ChamaJussaAPI\\ChamaJussaAPI.csproj|solutionrelative:chamajussaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrdemServicoService.cs",
-              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\ChamaJussaAPI\\ChamaJussaAPI\\Applications\\Services\\OrdemServicoService.cs",
-              "RelativeDocumentMoniker": "ChamaJussaAPI\\Applications\\Services\\OrdemServicoService.cs",
-              "ToolTip": "C:\\Users\\43698404818\\Desktop\\ChamaJussaAPI\\ChamaJussaAPI\\Applications\\Services\\OrdemServicoService.cs",
-              "RelativeToolTip": "ChamaJussaAPI\\Applications\\Services\\OrdemServicoService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAKYAAAAyAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ChamaJussaAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\43698404818\\Desktop\\ChamaJussa\\ChamaJussaAPI\\Program.cs",
+              "RelativeToolTip": "ChamaJussaAPI\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-30T13:43:18.829Z",
+              "WhenOpened": "2026-07-31T13:17:07.901Z",
               "EditorCaption": ""
             }
           ]

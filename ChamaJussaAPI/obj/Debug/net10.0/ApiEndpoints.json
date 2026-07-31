@@ -224,13 +224,13 @@
   {
     "ContainingType": "ChamaJussaAPI.Controllers.OrdemServicoController",
     "Method": "ListarPorUsuario",
-    "RelativePath": "api/OrdemServico/usuario/{usuarioId}",
+    "RelativePath": "api/OrdemServico/Usuario/{UsuarioId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuarioId",
+        "Name": "UsuarioId",
         "Type": "System.Guid",
         "IsRequired": true
       }
@@ -276,7 +276,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuarioDto",
+        "Name": "UsuarioDto",
         "Type": "ChamaJussaAPI.DTOs.UsuarioDto.CriarUsuarioDto",
         "IsRequired": true
       }

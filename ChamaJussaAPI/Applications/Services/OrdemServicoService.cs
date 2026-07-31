@@ -12,12 +12,10 @@ namespace ChamaJussaAPI.Applications.Services
     public class OrdemServicoService
     {
         private readonly IOrdemServicoRepository _repository;
-        private readonly IStorageService _storageService;
 
-        public OrdemServicoService(IOrdemServicoRepository repository, IStorageService storageService)
+        public OrdemServicoService(IOrdemServicoRepository repository)
         {
             _repository = repository;
-            _storageService = storageService;
         }
 
         private static LerOrdemServicoDto ConverterParaDto(OrdemDeServico os)
@@ -43,6 +41,36 @@ namespace ChamaJussaAPI.Applications.Services
             };
         }
 
+        private static byte[]? ConverterBase64ParaByteArray(string? base64String)
+        {
+            if (string.IsNullOrWhiteSpace(base64String))
+                return null;
+
+            if (base64String.Contains(","))
+            {
+                base64String = base64String.Split(',')[1];
+            }
+
+            try
+            {
+                return Convert.FromBase64String(base64String);
+            }
+            catch
+            {
+                throw new DomainException("A imagem enviada não é uma string Base64 válida.");
+            }
+        }
+
+        private static async Task<byte[]?> ConverterFormFileParaByteArrayAsync(IFormFile? arquivo)
+        {
+            if (arquivo == null || arquivo.Length == 0)
+                return null;
+
+            using var memoryStream = new MemoryStream();
+            await arquivo.CopyToAsync(memoryStream);
+            return memoryStream.ToArray();
+        }
+
         public async Task<LerOrdemServicoDto> AdicionarAsync(CriarOrdemServicoDto osDto, Guid usuarioId)
         {
             if (string.IsNullOrWhiteSpace(osDto.NomeItem))
@@ -60,12 +88,8 @@ namespace ChamaJussaAPI.Applications.Services
                 throw new DomainException("A localização informada não existe.");
             }
 
-            // Converte a imagem enviada via IFormFile para byte[] (VARBINARY no banco)
-            byte[]? imagemBytes = null;
-            if (osDto.Imagem != null && osDto.Imagem.Length > 0)
-            {
-                imagemBytes = await _storageService.ConverterParaByteArrayAsync(osDto.Imagem);
-            }
+            // Converte IFormFile para byte[]
+            byte[]? imagemBytes = await ConverterFormFileParaByteArrayAsync(osDto.Imagem);
 
             int statusIdInicial = _repository.ObterStatusInicialId();
             int? filaIdInicial = _repository.ObterFilaInicialId();
@@ -110,14 +134,15 @@ namespace ChamaJussaAPI.Applications.Services
             return ConverterParaDto(os);
         }
 
-        public byte[]? ObterImagem(int id)
+        public string? ObterImagem(int id)
         {
             OrdemDeServico? os = _repository.ObterPorId(id);
             if (os == null)
             {
                 throw new DomainException("Ordem de serviço não encontrada.");
             }
-            return os.Imagem;
+
+            return os.Imagem != null ? $"data:image/jpeg;base64,{Convert.ToBase64String(os.Imagem)}" : null;
         }
 
         private static bool IsStatusAberto(OrdemDeServico os)
@@ -164,7 +189,9 @@ namespace ChamaJussaAPI.Applications.Services
 
             if (dto.Imagem != null && dto.Imagem.Length > 0)
             {
-                os.Imagem = await _storageService.ConverterParaByteArrayAsync(dto.Imagem);
+                using var memoryStream = new MemoryStream();
+                await dto.Imagem.CopyToAsync(memoryStream);
+                os.Imagem = memoryStream.ToArray();
             }
 
             _repository.Atualizar(os);

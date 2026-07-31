@@ -318,14 +318,14 @@
         }
       }
     },
-    "/api/OrdemServico/usuario/{usuarioId}": {
+    "/api/OrdemServico/Usuario/{UsuarioId}": {
       "get": {
         "tags": [
           "OrdemServico"
         ],
         "parameters": [
           {
-            "name": "usuarioId",
+            "name": "UsuarioId",
             "in": "path",
             "required": true,
             "schema": {
