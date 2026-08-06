@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput, StyleSheet, TextInputProps, Text } from 'react-native';
+import { TextInput, StyleSheet, TextInputProps, Text, TextProps } from 'react-native';
 
 export const CustomInput = (props: TextInputProps) => {
     return (
@@ -11,9 +11,9 @@ export const CustomInput = (props: TextInputProps) => {
     );
 };
 
-export const CustomTitleInput = (props: Text) => {
+export const CustomTitleInput = (props: TextProps) => {
     return (
-        <Text style={styles.title} {...props} />
+        <Text style={styles.titleInput} {...props} />
     )
 }
 
@@ -30,5 +30,8 @@ const styles = StyleSheet.create({
         fontSize: 14,
         color: '#333',
     },
-    
+    titleInput: {
+        marginBottom: 5,
+        fontWeight: 'bold',
+    }
 });

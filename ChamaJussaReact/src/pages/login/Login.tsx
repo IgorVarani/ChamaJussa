@@ -1,22 +1,26 @@
 import React from 'react'
 import { Text, StyleSheet, View, Image, TextInput, TouchableOpacity } from 'react-native'
-import { CustomInput } from '../../components/CustomInput'
-import { CustomH1, CustomSub } from '../../components/CustomText'
+import { CustomInput, CustomTitleInput } from '../../components/CustomInput'
+import { CustomBtnText, CustomH1, CustomSub } from '../../components/CustomText'
 import { Botao, Colors } from '../../constants/theme'
+
+import Logo from '../../../assets/imgs/logo.svg'
 
 export const Login = () => {
   return (
     <View style={styles.container}>
-        <Image source={require('../../../assets/imgs/logo.svg')}></Image>
+        <Logo />
         <View style={styles.containerForm}>
             <CustomH1>Chama Jussa</CustomH1>
             <CustomSub>Gerenciamento de Ordens de Serviço</CustomSub>
         <View style={styles.inputs}>
-            <Text>E-Mail</Text>
+            <CustomTitleInput>E-Mail</CustomTitleInput>
                 <CustomInput placeholder='email@email.com' />
-            <Text>Senha</Text>
+            <CustomTitleInput>Senha</CustomTitleInput>
                 <CustomInput placeholder='Digite sua senha' />
-            <TouchableOpacity style={styles.btn}>Acessar o sistema</TouchableOpacity>
+            <TouchableOpacity style={styles.btn}>
+                <CustomBtnText>Acessar o Sistema</CustomBtnText>
+            </TouchableOpacity>
             </View>
         </View>
     </View>
@@ -44,9 +48,6 @@ const styles = StyleSheet.create({
     },
     btn:{
         backgroundColor: Colors.BtnVerde,
-        ...Botao
+        ...Botao,
     },
-    botaoTxt:{
-        
-    }
 })
